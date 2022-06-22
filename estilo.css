@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px ;
+    background-color: rgba(128, 128, 128, 0.297);  
+}
+/* inicio menu de navegaçao*/ 
+.container-fluid {
+    background-color: rgb(38, 36, 36) ; 
+    width: 100vh;
+}
+
+#menu-h  {
+    list-style-type: none;
+    height: 15%; 
+}
+#menu-h li {
+    display: inline;
+    
+}
+#menu-h li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 15px;
+    display: inline-block;
+    font-size: 30px;
+    transition: .4s;
+}
+#cadastro{   
+    margin-left: 50vw; 
+}
+#menu-h li a:hover {
+   color: rgb(43, 66, 168);
+   
+}
+/* responsividade do menu*/
+@media  screen and (max-width: 1806px) {
+    #cadastro{
+        margin-left: 40vw;
+    }
+}
+@media  screen and (max-width: 1500px) {
+    #cadastro{
+        margin-left: 20vw;
+    }
+}
+@media  screen and (max-width: 1134px) {
+    #cadastro{
+        margin-left: 0;
+    }
+}
+
+/* final do menu  */
+
+article {
+    padding: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: justify;
+    
+}
+/* inicio parallax */
+.plastico {
+    background-image: url('imagens/poluiçao.jpg');
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 25px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.608);
+    
+    
+}
+#textpara {
+    background-color: rgba(0, 0, 0, 0.553);
+    display: inline-block;
+    color: rgb(233, 227, 227);
+    text-shadow: 1px 2px 1px black;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 25px;
+}
+
+.parallax{
+    width: 40%;
+}
+/* final parallax */
+/*classe pra ajustar tamanho das fotos no carrosel  */
+.joao {
+    height: 500px ;
+}
+p {
+    color: rgb(72, 74, 74);
+}
+h3 {
+    text-shadow: 2px 2px 2px black;
+}
+footer {
+    background-color: rgb(38, 36, 36);
+    height: 70px;
+    width: 100%;
+    padding: 15px;
+}
+
+footer p {
+    padding-top: 5px;
+    color:white ;
+    
+}

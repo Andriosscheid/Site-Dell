@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="edit.css">
+    <link rel="shorcut icon" type="image/png" href="imagens/icone2.png">
+
+</head>
+
+<body>
+
+
+
+    <div class="form ">
+        <h1>Faça seu Cadastro </h1>
+        <FORM method="post" action="https://formsubmit.co/andrios1231@hotmail.com">
+
+            <!--inicio da area dos inputs de texto-->
+
+            <div class="input-group">
+
+
+
+                <div class="input-box">
+                    <label for="firstname">Primeiro nome</label>
+                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="lastname">Sobrenome</label>
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu Sobrenome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="number">Celular</label>
+                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                </div>
+
+
+            </div>
+            <!--final dos inputs de texto-->
+
+            <!--inicio escolaridade-->
+
+            <div class="escol">
+                <div class="escol-titulo">
+                    <h3>Escolaridade</h3>
+                </div>
+                <div class="escol-group">
+                    <div class="escol-input">
+                        <input type="radio" id="fundamental-inc" name="escolaridade">
+                        <label for="fundamental-inc">Fundamental Incompleto</label>
+                    </div>
+                    <div class="escol-input">
+                        <input type="radio" id="fundamental" name="escolaridade">
+                        <label for="fundamental">Fundamental Completo</label>
+                    </div>
+                    <div class="escol-input">
+                        <input type="radio" id="medio" name="escolaridade">
+                        <label for="medio">Ensino Médio Completo</label>
+                    </div>
+                    <div class="escol-input">
+                        <input type="radio" id="superior" name="escolaridade">
+                        <label for="superior">Cursando Ensino Superior</label>
+                    </div>
+                    <div class="escol-input">
+                        <input type="radio" id="superior-comp" name="escolaridade">
+                        <label for="superior-comp">Superior Completo</label>
+                    </div>
+                </div>
+            </div>
+
+            <!--final escolaridade-->
+            <br>
+            <br>
+            <!--parte de texto-->
+
+            <label id="text-box" for="experiencia">Conte porque você se preocupa com a poluição, e você acha que
+                nós nos preocupamos o suficiente?</label>
+            <br>
+            <textarea name="experiencia" id="experiencia" cols="30" rows="10"></textarea>
+            <!--botao-->
+            <br>
+
+            <input id="botao" type="submit" value="Enviar">
+            <input type="hidden" name="_captcha" value="false">
+
+    </div>
+
+
+
+    </div>
+
+    </FORM>
+
+</body>
+
+</html>
